@@ -1,0 +1,116 @@
+[
+  {
+    "id": "0",
+    "rels": {
+      "father": "779a6e3d-7143-4669-a38b-6aa11cd0354b",
+      "mother": "4856d0f2-7ec0-42fd-8d19-eaf5842e291e"
+    },
+    "data": {
+      "first name": "Bach",
+      "last name": "Vo",
+      "birthday": "1989",
+      "avatar": "https://www.bachvo.com/images/bach_small.jpg",
+      "gender": "M"
+    }
+  },
+  {
+    "id": "779a6e3d-7143-4669-a38b-6aa11cd0354b",
+    "data": {
+      "gender": "M",
+      "first name": "Hieu",
+      "last name": "Vo",
+      "birthday": "1956",
+      "avatar": ""
+    },
+    "rels": {
+      "children": [
+        "0",
+        "d35b5909-cfee-4381-ad77-bf4b6ba98d60",
+        "e9eeaeec-44ed-4438-b71f-adab3cf03942"
+      ],
+      "spouses": [
+        "4856d0f2-7ec0-42fd-8d19-eaf5842e291e"
+      ]
+    }
+  },
+  {
+    "id": "4856d0f2-7ec0-42fd-8d19-eaf5842e291e",
+    "data": {
+      "gender": "F",
+      "first name": "Huong",
+      "last name": "Truong",
+      "birthday": "1954",
+      "avatar": "https://media-exp1.licdn.com/dms/image/C5603AQHDUBlfW4o39Q/profile-displayphoto-shrink_400_400/0/1517529065415?e=1666828800&v=beta&t=Pc3ZporCc352KEnIrY3Oe16_mZTEFYR6Nwcov2PxDoU"
+    },
+    "rels": {
+      "spouses": [
+        "779a6e3d-7143-4669-a38b-6aa11cd0354b"
+      ],
+      "children": [
+        "0",
+        "d35b5909-cfee-4381-ad77-bf4b6ba98d60",
+        "e9eeaeec-44ed-4438-b71f-adab3cf03942"
+      ],
+      "mother": "3fd37c12-e1dc-4290-a75d-bb07071378cd"
+    }
+  },
+  {
+    "id": "3fd37c12-e1dc-4290-a75d-bb07071378cd",
+    "data": {
+      "gender": "F",
+      "first name": "Thi Thao",
+      "last name": "Nguyen",
+      "birthday": "1926 - 2022",
+      "avatar": "",
+      "location": "Sydney, Australia"
+    },
+    "rels": {
+      "children": [
+        "4856d0f2-7ec0-42fd-8d19-eaf5842e291e",
+        "6ae0aec2-0d18-4e55-b773-dbffaca35056"
+      ],
+      "spouses": []
+    }
+  },
+  {
+    "id": "d35b5909-cfee-4381-ad77-bf4b6ba98d60",
+    "data": {
+      "gender": "F",
+      "first name": "Lynn",
+      "last name": "Vo",
+      "birthday": "1988",
+      "avatar": "https://media-exp1.licdn.com/dms/image/C5103AQHR6o724N6ZDg/profile-displayphoto-shrink_800_800/0/1517063709678?e=1666828800&v=beta&t=iWorU6pJ6lauxnkWBfN8XHfWWxr6qFkKG7twgXkPA1Y"
+    },
+    "rels": {
+      "father": "779a6e3d-7143-4669-a38b-6aa11cd0354b",
+      "mother": "4856d0f2-7ec0-42fd-8d19-eaf5842e291e"
+    }
+  },
+  {
+    "id": "e9eeaeec-44ed-4438-b71f-adab3cf03942",
+    "data": {
+      "gender": "F",
+      "first name": "Jade",
+      "last name": "Vo",
+      "birthday": "1983",
+      "avatar": "https://media-exp1.licdn.com/dms/image/C5603AQEJ3_3JVvJNOg/profile-displayphoto-shrink_800_800/0/1539012906512?e=1666828800&v=beta&t=07SMayjdvlFAJkJ6yufpf5Q8os8ZvgnDeGmClaB66VU"
+    },
+    "rels": {
+      "father": "779a6e3d-7143-4669-a38b-6aa11cd0354b",
+      "mother": "4856d0f2-7ec0-42fd-8d19-eaf5842e291e"
+    }
+  },
+  {
+    "id": "6ae0aec2-0d18-4e55-b773-dbffaca35056",
+    "data": {
+      "gender": "M",
+      "first name": "Hoang",
+      "last name": "Truong",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "mother": "3fd37c12-e1dc-4290-a75d-bb07071378cd"
+    }
+  }
+]
