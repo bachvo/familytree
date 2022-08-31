@@ -64,12 +64,12 @@
     "id": "3fd37c12-e1dc-4290-a75d-bb07071378cd",
     "data": {
       "gender": "F",
-      "first name": "Thi Thao",
+      "first name": "Thi",
       "last name": "Nguyen",
-      "birthday": "02/25/1926",
+      "birthday": "2/25/1926",
       "avatar": "/images/grandma.png",
       "location": "Sydney, Australia",
-      "deathday": "08/23/2022"
+      "deathday": "8/23/2022"
     },
     "rels": {
       "children": [
