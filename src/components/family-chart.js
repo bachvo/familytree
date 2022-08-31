@@ -2,6 +2,24 @@ import React from "react";
 import f3 from "family-chart"; // npm i family-chart
 import "../styles/family-chart.css"; // create file 'family-chart.css' in same directory, copy/paste css from examples/create-tree
 import dataJson from "../data/data.json"
+
+/**
+ * Calculate a persons age
+ * @param {string} birthdayString - day of birth format mm/dd/yyyy
+ * @param {string} [deathdayString] - day of death format mm/dd/yyyy
+ * @returns {number}
+ */
+function getAge(birthdayString, deathdayString) {
+  const endDay = deathdayString ? new Date(deathdayString) : new Date();
+  const birthDate = new Date(birthdayString);
+  const m = endDay.getMonth() - birthDate.getMonth();
+  let age = endDay.getFullYear() - birthDate.getFullYear();
+  if (m < 0 || (m === 0 && endDay.getDate() < birthDate.getDate())) {
+      age--;
+  }
+  return age;
+}
+
 export default class FamilyTree extends React.Component {
   cont = React.createRef();
 
@@ -32,7 +50,15 @@ export default class FamilyTree extends React.Component {
         },
         card_display: [
           (d) => `${d.data["first name"] || ""} ${d.data["last name"] || ""}`,
-          (d) => `${d.data["birthday"] || ""}`
+          (d) => {
+            const birthday = d.data["birthday"];
+            const deathday = d.data["deathday"];
+
+            if (deathday) {
+              return `${birthday || ""} - ${deathday || ""} (${getAge(birthday, deathday)})`
+            }
+            return `${birthday || ""} (${getAge(birthday)})`
+          }
         ],
         mini_tree: true,
         link_break: false
