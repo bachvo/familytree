@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## How to add/update data
+
+Copy data from data/data.json and input into https://donatso.github.io/family-chart/examples/create-tree/ to build the data structure. Once data structure is built, replace data/data.json with what is generated from create-tree website
 ## Available Scripts
 
 In the project directory, you can run:
