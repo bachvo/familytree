@@ -76,7 +76,9 @@
       "children": [
         "4856d0f2-7ec0-42fd-8d19-eaf5842e291e",
         "6ae0aec2-0d18-4e55-b773-dbffaca35056",
-        "f6d1fe92-1be0-4f20-a87d-4e96460c36ad"
+        "f6d1fe92-1be0-4f20-a87d-4e96460c36ad",
+        "e9240af4-ae9d-4c15-b39b-62a3ef3a8c3e",
+        "eb5b5778-cb3f-4f6a-b0c7-eb2ccf97855b"
       ],
       "spouses": [
         "622a9ee7-36b3-4ad7-86fa-35476278dbab"
@@ -302,8 +304,171 @@
       "children": [
         "4856d0f2-7ec0-42fd-8d19-eaf5842e291e",
         "6ae0aec2-0d18-4e55-b773-dbffaca35056",
-        "f6d1fe92-1be0-4f20-a87d-4e96460c36ad"
+        "f6d1fe92-1be0-4f20-a87d-4e96460c36ad",
+        "e9240af4-ae9d-4c15-b39b-62a3ef3a8c3e",
+        "eb5b5778-cb3f-4f6a-b0c7-eb2ccf97855b"
       ]
+    }
+  },
+  {
+    "id": "e9240af4-ae9d-4c15-b39b-62a3ef3a8c3e",
+    "data": {
+      "gender": "M",
+      "first name": "Han",
+      "last name": "Truong",
+      "birthday": "",
+      "avatar": "",
+      "deathday": ""
+    },
+    "rels": {
+      "father": "622a9ee7-36b3-4ad7-86fa-35476278dbab",
+      "mother": "3fd37c12-e1dc-4290-a75d-bb07071378cd",
+      "spouses": [
+        "ebf40763-7a49-4a63-8881-09753177fd80"
+      ],
+      "children": [
+        "cf963cd6-a9b5-4f9d-9af4-f50bed94a1e2",
+        "80abe0c1-e5d1-4820-9bda-448171682a45",
+        "8f9f4bf3-a2ec-4ddd-88e1-4cdb0de19a00"
+      ]
+    }
+  },
+  {
+    "id": "ebf40763-7a49-4a63-8881-09753177fd80",
+    "data": {
+      "gender": "F",
+      "first name": "Lan",
+      "last name": "Pham",
+      "birthday": "",
+      "avatar": "",
+      "deathday": ""
+    },
+    "rels": {
+      "spouses": [
+        "e9240af4-ae9d-4c15-b39b-62a3ef3a8c3e"
+      ],
+      "children": [
+        "cf963cd6-a9b5-4f9d-9af4-f50bed94a1e2",
+        "80abe0c1-e5d1-4820-9bda-448171682a45",
+        "8f9f4bf3-a2ec-4ddd-88e1-4cdb0de19a00"
+      ]
+    }
+  },
+  {
+    "id": "cf963cd6-a9b5-4f9d-9af4-f50bed94a1e2",
+    "data": {
+      "gender": "F",
+      "first name": "Hong",
+      "last name": "Truong",
+      "birthday": "",
+      "avatar": "",
+      "deathday": ""
+    },
+    "rels": {
+      "mother": "ebf40763-7a49-4a63-8881-09753177fd80",
+      "father": "e9240af4-ae9d-4c15-b39b-62a3ef3a8c3e"
+    }
+  },
+  {
+    "id": "80abe0c1-e5d1-4820-9bda-448171682a45",
+    "data": {
+      "gender": "F",
+      "first name": "Quyên",
+      "last name": "Truong",
+      "birthday": "",
+      "avatar": "",
+      "deathday": ""
+    },
+    "rels": {
+      "father": "e9240af4-ae9d-4c15-b39b-62a3ef3a8c3e",
+      "mother": "ebf40763-7a49-4a63-8881-09753177fd80"
+    }
+  },
+  {
+    "id": "8f9f4bf3-a2ec-4ddd-88e1-4cdb0de19a00",
+    "data": {
+      "gender": "F",
+      "first name": "Hanh",
+      "last name": "Truong",
+      "birthday": "",
+      "avatar": "",
+      "deathday": ""
+    },
+    "rels": {
+      "mother": "ebf40763-7a49-4a63-8881-09753177fd80",
+      "father": "e9240af4-ae9d-4c15-b39b-62a3ef3a8c3e"
+    }
+  },
+  {
+    "id": "eb5b5778-cb3f-4f6a-b0c7-eb2ccf97855b",
+    "data": {
+      "gender": "F",
+      "first name": "Trang",
+      "last name": "Truong",
+      "birthday": "",
+      "avatar": "",
+      "deathday": ""
+    },
+    "rels": {
+      "father": "622a9ee7-36b3-4ad7-86fa-35476278dbab",
+      "mother": "3fd37c12-e1dc-4290-a75d-bb07071378cd",
+      "spouses": [
+        "480946ba-6769-4250-8726-01a447fb4c0b"
+      ],
+      "children": [
+        "758355ec-26a4-4d40-99ef-1ef248e6bbe6",
+        "d0e5a933-10ef-4d2a-ad28-6ee535e05ab6"
+      ]
+    }
+  },
+  {
+    "id": "480946ba-6769-4250-8726-01a447fb4c0b",
+    "data": {
+      "gender": "M",
+      "first name": "Kham",
+      "last name": "Châu",
+      "birthday": "",
+      "avatar": "",
+      "deathday": ""
+    },
+    "rels": {
+      "spouses": [
+        "eb5b5778-cb3f-4f6a-b0c7-eb2ccf97855b"
+      ],
+      "children": [
+        "758355ec-26a4-4d40-99ef-1ef248e6bbe6",
+        "d0e5a933-10ef-4d2a-ad28-6ee535e05ab6"
+      ]
+    }
+  },
+  {
+    "id": "758355ec-26a4-4d40-99ef-1ef248e6bbe6",
+    "data": {
+      "gender": "M",
+      "first name": "An (Daniel)",
+      "last name": "Châu",
+      "birthday": "",
+      "avatar": "",
+      "deathday": ""
+    },
+    "rels": {
+      "father": "480946ba-6769-4250-8726-01a447fb4c0b",
+      "mother": "eb5b5778-cb3f-4f6a-b0c7-eb2ccf97855b"
+    }
+  },
+  {
+    "id": "d0e5a933-10ef-4d2a-ad28-6ee535e05ab6",
+    "data": {
+      "gender": "M",
+      "first name": "Loc (Dennis)",
+      "last name": "Châu",
+      "birthday": "",
+      "avatar": "",
+      "deathday": ""
+    },
+    "rels": {
+      "father": "480946ba-6769-4250-8726-01a447fb4c0b",
+      "mother": "eb5b5778-cb3f-4f6a-b0c7-eb2ccf97855b"
     }
   }
 ]

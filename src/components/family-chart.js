@@ -56,10 +56,15 @@ export default class FamilyTree extends React.Component {
             const deathday = d.data["deathday"];
             const deathYear = deathday.substring(deathday.length - 4);
 
-            if (deathday) {
+            if (birthday && deathday) {
               return `${birthYear || ""} - ${deathYear || ""} (${getAge(birthday, deathday)})`
             }
-            return `${birthYear || ""} (${getAge(birthday)})`
+
+            if (birthday) {
+              return `${birthYear || ""} (${getAge(birthday)})`
+            }
+
+            return "";
           }
         ],
         mini_tree: true,
