@@ -82,7 +82,9 @@
       ],
       "spouses": [
         "622a9ee7-36b3-4ad7-86fa-35476278dbab"
-      ]
+      ],
+      "mother": "aef6a5b1-8185-4d8f-ac98-c31f7227ffdc",
+      "father": "68626900-eb0d-4a88-a8b8-b5b92e129557"
     }
   },
   {
@@ -307,7 +309,9 @@
         "f6d1fe92-1be0-4f20-a87d-4e96460c36ad",
         "e9240af4-ae9d-4c15-b39b-62a3ef3a8c3e",
         "eb5b5778-cb3f-4f6a-b0c7-eb2ccf97855b"
-      ]
+      ],
+      "father": "3508cd11-bbee-44ee-96f6-988bd5e0a739",
+      "mother": "939ce767-3b60-4708-b6bb-4e18d2fd9608"
     }
   },
   {
@@ -469,6 +473,82 @@
     "rels": {
       "father": "480946ba-6769-4250-8726-01a447fb4c0b",
       "mother": "eb5b5778-cb3f-4f6a-b0c7-eb2ccf97855b"
+    }
+  },
+  {
+    "id": "aef6a5b1-8185-4d8f-ac98-c31f7227ffdc",
+    "data": {
+      "gender": "F",
+      "first name": "Yên",
+      "last name": "Hoàng",
+      "birthday": "1900",
+      "avatar": "",
+      "deathday": "1984"
+    },
+    "rels": {
+      "children": [
+        "3fd37c12-e1dc-4290-a75d-bb07071378cd"
+      ],
+      "spouses": [
+        "68626900-eb0d-4a88-a8b8-b5b92e129557"
+      ]
+    }
+  },
+  {
+    "id": "68626900-eb0d-4a88-a8b8-b5b92e129557",
+    "data": {
+      "gender": "M",
+      "first name": "Mâu",
+      "last name": "Nguyen",
+      "birthday": "",
+      "avatar": "",
+      "deathday": ""
+    },
+    "rels": {
+      "spouses": [
+        "aef6a5b1-8185-4d8f-ac98-c31f7227ffdc"
+      ],
+      "children": [
+        "3fd37c12-e1dc-4290-a75d-bb07071378cd"
+      ]
+    }
+  },
+  {
+    "id": "3508cd11-bbee-44ee-96f6-988bd5e0a739",
+    "data": {
+      "gender": "M",
+      "first name": "Te",
+      "last name": "Truong",
+      "birthday": "",
+      "avatar": "",
+      "deathday": "1945"
+    },
+    "rels": {
+      "children": [
+        "622a9ee7-36b3-4ad7-86fa-35476278dbab"
+      ],
+      "spouses": [
+        "939ce767-3b60-4708-b6bb-4e18d2fd9608"
+      ]
+    }
+  },
+  {
+    "id": "939ce767-3b60-4708-b6bb-4e18d2fd9608",
+    "data": {
+      "gender": "F",
+      "first name": "Hao",
+      "last name": "Nguyen",
+      "birthday": "1883",
+      "avatar": "",
+      "deathday": "1966"
+    },
+    "rels": {
+      "spouses": [
+        "3508cd11-bbee-44ee-96f6-988bd5e0a739"
+      ],
+      "children": [
+        "622a9ee7-36b3-4ad7-86fa-35476278dbab"
+      ]
     }
   }
 ]
