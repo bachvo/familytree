@@ -74,7 +74,8 @@
     "rels": {
       "children": [
         "4856d0f2-7ec0-42fd-8d19-eaf5842e291e",
-        "6ae0aec2-0d18-4e55-b773-dbffaca35056"
+        "6ae0aec2-0d18-4e55-b773-dbffaca35056",
+        "f6d1fe92-1be0-4f20-a87d-4e96460c36ad"
       ],
       "spouses": []
     }
@@ -184,6 +185,99 @@
     "rels": {
       "father": "6ae0aec2-0d18-4e55-b773-dbffaca35056",
       "mother": "98f92634-8c44-4316-b005-fbb4f5f0cbc1"
+    }
+  },
+  {
+    "id": "f6d1fe92-1be0-4f20-a87d-4e96460c36ad",
+    "data": {
+      "gender": "M",
+      "first name": "Duong",
+      "last name": "Truong",
+      "birthday": "05/01/1949",
+      "avatar": "",
+      "location": "Hartford, USA",
+      "deathday": "02/01/2021"
+    },
+    "rels": {
+      "mother": "3fd37c12-e1dc-4290-a75d-bb07071378cd",
+      "spouses": [
+        "7b2269ee-3ae9-4743-85f0-a290490e3cc3"
+      ],
+      "children": [
+        "7ecb99dd-2dd4-49ba-a2d3-e0f016e60df0",
+        "8b2d68dd-e851-47a4-bd7f-0a8b3a7e90e8",
+        "033dbbaa-60ea-4ad2-8e95-eecd8f50ec47"
+      ]
+    }
+  },
+  {
+    "id": "7b2269ee-3ae9-4743-85f0-a290490e3cc3",
+    "data": {
+      "gender": "F",
+      "first name": "Thu",
+      "last name": "Phan",
+      "birthday": "11/06/1953",
+      "avatar": "",
+      "location": "Hartford, USA",
+      "deathday": ""
+    },
+    "rels": {
+      "spouses": [
+        "f6d1fe92-1be0-4f20-a87d-4e96460c36ad"
+      ],
+      "children": [
+        "7ecb99dd-2dd4-49ba-a2d3-e0f016e60df0",
+        "8b2d68dd-e851-47a4-bd7f-0a8b3a7e90e8",
+        "033dbbaa-60ea-4ad2-8e95-eecd8f50ec47"
+      ]
+    }
+  },
+  {
+    "id": "7ecb99dd-2dd4-49ba-a2d3-e0f016e60df0",
+    "data": {
+      "gender": "M",
+      "first name": "Dung (Miki)",
+      "last name": "Truong",
+      "birthday": "07/27/1989",
+      "avatar": "",
+      "location": "Middletown, USA",
+      "deathday": ""
+    },
+    "rels": {
+      "mother": "7b2269ee-3ae9-4743-85f0-a290490e3cc3",
+      "father": "f6d1fe92-1be0-4f20-a87d-4e96460c36ad"
+    }
+  },
+  {
+    "id": "8b2d68dd-e851-47a4-bd7f-0a8b3a7e90e8",
+    "data": {
+      "gender": "M",
+      "first name": "Duy (Dan)",
+      "last name": "Truong",
+      "birthday": "06/08/1981",
+      "avatar": "",
+      "location": "Danbury, USA",
+      "deathday": ""
+    },
+    "rels": {
+      "mother": "7b2269ee-3ae9-4743-85f0-a290490e3cc3",
+      "father": "f6d1fe92-1be0-4f20-a87d-4e96460c36ad"
+    }
+  },
+  {
+    "id": "033dbbaa-60ea-4ad2-8e95-eecd8f50ec47",
+    "data": {
+      "gender": "M",
+      "first name": "Dinh",
+      "last name": "Truong",
+      "birthday": "10/28/1979",
+      "avatar": "",
+      "location": "Wethersfield, USA",
+      "deathday": ""
+    },
+    "rels": {
+      "mother": "7b2269ee-3ae9-4743-85f0-a290490e3cc3",
+      "father": "f6d1fe92-1be0-4f20-a87d-4e96460c36ad"
     }
   }
 ]

@@ -52,12 +52,14 @@ export default class FamilyTree extends React.Component {
           (d) => `${d.data["first name"] || ""} ${d.data["last name"] || ""}`,
           (d) => {
             const birthday = d.data["birthday"];
+            const birthYear = birthday.substring(birthday.length - 4);
             const deathday = d.data["deathday"];
+            const deathYear = deathday.substring(deathday.length - 4);
 
             if (deathday) {
-              return `${birthday || ""} - ${deathday || ""} (${getAge(birthday, deathday)})`
+              return `${birthYear || ""} - ${deathYear || ""} (${getAge(birthday, deathday)})`
             }
-            return `${birthday || ""} (${getAge(birthday)})`
+            return `${birthYear || ""} (${getAge(birthday)})`
           }
         ],
         mini_tree: true,
