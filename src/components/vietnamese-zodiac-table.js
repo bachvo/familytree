@@ -1,6 +1,6 @@
 import React from "react";
 import dataJson from "../data/data.json"
-import {VIET_ZODIAC, getZodiacAnimalName} from "../utils/get-zodiac"
+import { VIET_ZODIAC, getZodiacAnimalName } from "../utils/get-zodiac"
 
 /**
  * Capitalize the first character in a string

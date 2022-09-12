@@ -1,3 +1,7 @@
+/**
+ * A dictionary containing all vietnamese zodiac animals and their javascript character entities/hex
+ * @property {object}
+ */
 export const VIET_ZODIAC = {
   monkey: '\u{1F435}', // 🐵
   rooster: '\u{1F414}', // 🐔
@@ -14,14 +18,25 @@ export const VIET_ZODIAC = {
 }
 
 /**
- * Calculate a persons vietnamese zodiac hexidecimal unicode string
+ * An array of all the keys of VIET_ZODIAC
+ * @property {string[]}
+ */
+const VIET_ZODIAC_KEYS = Object.keys(VIET_ZODIAC);
+
+/**
+ * An array of all the values of VIET_ZODIAC
+ * @property {string[]}
+ */
+const VIET_ZODIAC_VALUES = Object.values(VIET_ZODIAC);
+
+/**
+ * Calculate a persons vietnamese zodiac javascript character entity/hex string
  * @param {string} birthYear - gregorian birth year format yyyy
- * @returns {string} return hexidecimal unicode string representing the animal
+ * @returns {string} return javascript character entity representing the animal
  */
 export default function getZodiacAnimalHex(birthYear) {
-  const zodiacIndex = Object.values(VIET_ZODIAC);
   const remainder = birthYear % 12;
-  return zodiacIndex[remainder]
+  return VIET_ZODIAC_VALUES[remainder];
 }
 
 /**
@@ -30,7 +45,6 @@ export default function getZodiacAnimalHex(birthYear) {
  * @returns {string} return persons zodiac animal
  */
  export function getZodiacAnimalName(birthYear) {
-  const zodiacIndex = Object.keys(VIET_ZODIAC);
   const remainder = birthYear % 12;
-  return zodiacIndex[remainder]
+  return VIET_ZODIAC_KEYS[remainder];
 }
