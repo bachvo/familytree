@@ -8,7 +8,7 @@ export const VIET_ZODIAC = {
   dog: '\u{1F436}', // 🐶
   pig: '\u{1F437}', // 🐷
   rat: '\u{1F42D}', // 🐭
-  ox: '\u{1F42E}', // 🐮
+  buffalo: '\u{1F42E}', // 🐮
   tiger: '\u{1F42F}', // 🐯
   cat: '\u{1F431}', // 🐱
   dragon: '\u{1F432}', // 🐲
