@@ -44,7 +44,7 @@ export default class VietnameseZodiacTable extends React.Component {
       return dict;
     }, {});
 
-    const zodiacTable = Object.values(zodiacHash);
+    const zodiacTable = Object.values(zodiacHash).sort((a, b) => b.count - a.count);
     this.state = {
       zodiacTable
     }
