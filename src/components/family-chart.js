@@ -1,24 +1,8 @@
 import React from "react";
-import f3 from "family-chart"; // npm i family-chart
-import "../styles/family-chart.css"; // create file 'family-chart.css' in same directory, copy/paste css from examples/create-tree
+import f3 from "family-chart";
 import dataJson from "../data/data.json"
-
-/**
- * Calculate a persons age
- * @param {string} birthdayString - day of birth format mm/dd/yyyy
- * @param {string} [deathdayString] - day of death format mm/dd/yyyy
- * @returns {number}
- */
-function getAge(birthdayString, deathdayString) {
-  const endDay = deathdayString ? new Date(deathdayString) : new Date();
-  const birthDate = new Date(birthdayString);
-  const m = endDay.getMonth() - birthDate.getMonth();
-  let age = endDay.getFullYear() - birthDate.getFullYear();
-  if (m < 0 || (m === 0 && endDay.getDate() < birthDate.getDate())) {
-      age--;
-  }
-  return age;
-}
+import getAge from "../utils/get-age"
+import getZodiacAnimalHex from "../utils/get-zodiac"
 
 export default class FamilyTree extends React.Component {
   cont = React.createRef();
@@ -57,11 +41,11 @@ export default class FamilyTree extends React.Component {
             const deathYear = deathday.substring(deathday.length - 4);
 
             if (birthday && deathday) {
-              return `${birthYear || ""} - ${deathYear || ""} (${getAge(birthday, deathday)})`
+              return `${birthYear} - ${deathYear} ${getZodiacAnimalHex(birthYear)} (${getAge(birthday, deathday)})`
             }
 
             if (birthday) {
-              return `${birthYear || ""} (${getAge(birthday)})`
+              return `${birthYear} ${getZodiacAnimalHex(birthYear)} (${getAge(birthday)})`
             }
 
             return "";
