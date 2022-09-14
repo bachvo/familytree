@@ -1,3 +1,7 @@
+/**
+ * Generate a unique 32 char long uuid
+ * @returns {string}
+ */
 export default function generateUUID() {
   let d = new Date().getTime(); // Time in milliseconds since the ECMAScript epoch
   let d2 = (performance && performance.now && (performance.now()*1000)) || 0;//Time in microseconds since page-load or 0 if unsupported

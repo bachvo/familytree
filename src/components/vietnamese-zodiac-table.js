@@ -51,16 +51,16 @@ export default class VietnameseZodiacTable extends React.Component {
   }
 
   render() {
-    return <div className="vietnamese-zodiac-table">
+    return <div id="zodiac" className="vietnamese-zodiac-table">
       <h2>Vietnamese Zodiac Statistics</h2>
-      <table className="vietnamese-zodiac-table__table">
+      <table className="table">
         <thead>
           <tr>
             {Object.keys(this.state.zodiacTable[0]).map((heading, key) => {
               if (heading === 'hex') {
                 return ''
               }
-              return <th key={key}>{capitalizeFirstLetter(heading)}</th>
+              return <th scope="col" key={key}>{capitalizeFirstLetter(heading)}</th>
             })}
           </tr>
         </thead>
