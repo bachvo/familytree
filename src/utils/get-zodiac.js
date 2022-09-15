@@ -30,13 +30,37 @@ const VIET_ZODIAC_KEYS = Object.keys(VIET_ZODIAC);
 const VIET_ZODIAC_VALUES = Object.values(VIET_ZODIAC);
 
 /**
+ * Offset the zodiac by -1 because gregorian and lunar are not equal
+ * @param {string} birthYear - gregorian birth year format yyyy
+ * @param {number} remainder - remainder
+ * @return {number} remainder - remainder
+ */
+function offsetRemainder(birthYear, remainder) {
+  let _remainder = remainder;
+  const offsetYear = {
+    '1956': true, // Hiếu
+    '1995': true, // Luân (Matthew)
+  }
+
+  if (birthYear in offsetYear) {
+    if (_remainder === 0) {
+      _remainder = 11
+    } else {
+      _remainder--
+    }
+  }
+
+  return _remainder;
+}
+
+/**
  * Calculate a persons vietnamese zodiac javascript character entity/hex string
  * @param {string} birthYear - gregorian birth year format yyyy
  * @returns {string} return javascript character entity representing the animal
  */
 export default function getZodiacAnimalHex(birthYear) {
   const remainder = birthYear % 12;
-  return VIET_ZODIAC_VALUES[remainder];
+  return VIET_ZODIAC_VALUES[offsetRemainder(birthYear, remainder)];
 }
 
 /**
@@ -46,5 +70,5 @@ export default function getZodiacAnimalHex(birthYear) {
  */
  export function getZodiacAnimalName(birthYear) {
   const remainder = birthYear % 12;
-  return VIET_ZODIAC_KEYS[remainder];
+  return VIET_ZODIAC_KEYS[offsetRemainder(birthYear, remainder)];
 }
