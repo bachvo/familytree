@@ -494,7 +494,7 @@
       "first name": "Yến",
       "last name": "Hoàng",
       "birthday": "1900",
-      "avatar": "",
+      "avatar": "/images/yen.jpeg",
       "deathday": "1984"
     },
     "rels": {
@@ -534,7 +534,7 @@
       "first name": "Tế",
       "last name": "Trương",
       "birthday": "",
-      "avatar": "",
+      "avatar": "/images/te.jpeg",
       "deathday": "1945"
     },
     "rels": {
@@ -553,7 +553,7 @@
       "first name": "Hảo",
       "last name": "Nguyễn",
       "birthday": "1883",
-      "avatar": "",
+      "avatar": "/images/hao.jpeg",
       "deathday": "1966"
     },
     "rels": {
@@ -668,8 +668,8 @@
       "gender": "M",
       "first name": "Patrick",
       "last name": "Ho",
-      "birthday": "",
-      "avatar": "",
+      "birthday": "1987",
+      "avatar": "https://media-exp1.licdn.com/dms/image/C5603AQHHp3h0GDMfZQ/profile-displayphoto-shrink_800_800/0/1659584835441?e=1668643200&v=beta&t=5DCAx1gqWmCGn81N7r8xdnpq5lgvj-dcI72lV0JAA4Q",
       "deathday": ""
     },
     "rels": {
@@ -688,7 +688,7 @@
       "first name": "Nathan",
       "last name": "Deisman",
       "birthday": "1976",
-      "avatar": "",
+      "avatar": "https://media-exp1.licdn.com/dms/image/C4D03AQGFqAgj7xFoyg/profile-displayphoto-shrink_800_800/0/1516834492021?e=1668643200&v=beta&t=kjD9cPFQIa36l8AlcH7FaAleV8v9oKt-uI_g2R_OJL8",
       "deathday": ""
     },
     "rels": {
@@ -707,7 +707,7 @@
       "first name": "Maxine",
       "last name": "Vo-Deisman",
       "birthday": "2019",
-      "avatar": "",
+      "avatar": "/images/maxine.jpeg",
       "deathday": ""
     },
     "rels": {
@@ -777,7 +777,7 @@
       "first name": "Evan",
       "last name": "Ho",
       "birthday": "2022",
-      "avatar": "",
+      "avatar": "/images/evan.jpeg",
       "deathday": ""
     },
     "rels": {
