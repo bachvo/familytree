@@ -93,14 +93,20 @@
       "gender": "F",
       "first name": "Lynn",
       "last name": "Vo",
-      "birthday": "03/07/1988",
+      "birthday": "1988",
       "avatar": "https://media-exp1.licdn.com/dms/image/C5103AQHR6o724N6ZDg/profile-displayphoto-shrink_800_800/0/1517063709678?e=1666828800&v=beta&t=iWorU6pJ6lauxnkWBfN8XHfWWxr6qFkKG7twgXkPA1Y",
       "location": "Vancouver, Canada",
       "deathday": ""
     },
     "rels": {
       "father": "779a6e3d-7143-4669-a38b-6aa11cd0354b",
-      "mother": "4856d0f2-7ec0-42fd-8d19-eaf5842e291e"
+      "mother": "4856d0f2-7ec0-42fd-8d19-eaf5842e291e",
+      "spouses": [
+        "2fb04ab8-c176-47b0-a203-16eb2b29cfed"
+      ],
+      "children": [
+        "526e3656-e14f-495a-abc2-b71a817889a3"
+      ]
     }
   },
   {
@@ -109,14 +115,20 @@
       "gender": "F",
       "first name": "Ngoc (Jade)",
       "last name": "Vo",
-      "birthday": "02/20/1983",
+      "birthday": "1983",
       "avatar": "https://media-exp1.licdn.com/dms/image/C5603AQEJ3_3JVvJNOg/profile-displayphoto-shrink_800_800/0/1539012906512?e=1666828800&v=beta&t=07SMayjdvlFAJkJ6yufpf5Q8os8ZvgnDeGmClaB66VU",
       "location": "Edmonton, Canada",
       "deathday": ""
     },
     "rels": {
       "father": "779a6e3d-7143-4669-a38b-6aa11cd0354b",
-      "mother": "4856d0f2-7ec0-42fd-8d19-eaf5842e291e"
+      "mother": "4856d0f2-7ec0-42fd-8d19-eaf5842e291e",
+      "spouses": [
+        "bf06b548-b71f-442e-ba9e-a22a4ea73cdd"
+      ],
+      "children": [
+        "91f54309-554a-44d0-8b5b-fb95497f5b96"
+      ]
     }
   },
   {
@@ -487,7 +499,8 @@
     },
     "rels": {
       "children": [
-        "3fd37c12-e1dc-4290-a75d-bb07071378cd"
+        "3fd37c12-e1dc-4290-a75d-bb07071378cd",
+        "027c58db-2c8e-4ca1-874d-703f9572c79b"
       ],
       "spouses": [
         "68626900-eb0d-4a88-a8b8-b5b92e129557"
@@ -509,7 +522,8 @@
         "aef6a5b1-8185-4d8f-ac98-c31f7227ffdc"
       ],
       "children": [
-        "3fd37c12-e1dc-4290-a75d-bb07071378cd"
+        "3fd37c12-e1dc-4290-a75d-bb07071378cd",
+        "027c58db-2c8e-4ca1-874d-703f9572c79b"
       ]
     }
   },
@@ -549,6 +563,226 @@
       "children": [
         "622a9ee7-36b3-4ad7-86fa-35476278dbab"
       ]
+    }
+  },
+  {
+    "id": "027c58db-2c8e-4ca1-874d-703f9572c79b",
+    "data": {
+      "gender": "F",
+      "first name": "Liễu",
+      "last name": "Nguyễn",
+      "birthday": "",
+      "avatar": "",
+      "deathday": ""
+    },
+    "rels": {
+      "spouses": [
+        "70853a43-3374-417b-ab5b-3362da20763b"
+      ],
+      "father": "68626900-eb0d-4a88-a8b8-b5b92e129557",
+      "mother": "aef6a5b1-8185-4d8f-ac98-c31f7227ffdc",
+      "children": [
+        "f09450a6-12ea-4202-ada0-1bf06513c997",
+        "ca842066-5a3a-432e-a7ac-657637959903"
+      ]
+    }
+  },
+  {
+    "id": "70853a43-3374-417b-ab5b-3362da20763b",
+    "data": {
+      "gender": "M",
+      "first name": "Ngân",
+      "last name": "Nguyễn",
+      "birthday": "",
+      "avatar": "",
+      "deathday": ""
+    },
+    "rels": {
+      "spouses": [
+        "027c58db-2c8e-4ca1-874d-703f9572c79b"
+      ],
+      "children": [
+        "f09450a6-12ea-4202-ada0-1bf06513c997",
+        "ca842066-5a3a-432e-a7ac-657637959903"
+      ]
+    }
+  },
+  {
+    "id": "f09450a6-12ea-4202-ada0-1bf06513c997",
+    "data": {
+      "gender": "M",
+      "first name": "Bình",
+      "last name": "Nguyễn",
+      "birthday": "",
+      "avatar": "",
+      "deathday": ""
+    },
+    "rels": {
+      "spouses": [
+        "98e8349a-c7bb-4a7b-b01c-9af6b3924922"
+      ],
+      "father": "70853a43-3374-417b-ab5b-3362da20763b",
+      "mother": "027c58db-2c8e-4ca1-874d-703f9572c79b",
+      "children": [
+        "80add459-2b52-4004-8b59-5ba24d1c9b31"
+      ]
+    }
+  },
+  {
+    "id": "98e8349a-c7bb-4a7b-b01c-9af6b3924922",
+    "data": {
+      "gender": "F",
+      "first name": "Tuyết",
+      "last name": "Châu",
+      "birthday": "",
+      "avatar": "",
+      "deathday": ""
+    },
+    "rels": {
+      "spouses": [
+        "f09450a6-12ea-4202-ada0-1bf06513c997"
+      ],
+      "children": [
+        "80add459-2b52-4004-8b59-5ba24d1c9b31"
+      ]
+    }
+  },
+  {
+    "id": "80add459-2b52-4004-8b59-5ba24d1c9b31",
+    "data": {
+      "gender": "F",
+      "first name": "Nguyên",
+      "last name": "Châu",
+      "birthday": "",
+      "avatar": "",
+      "deathday": ""
+    },
+    "rels": {
+      "father": "f09450a6-12ea-4202-ada0-1bf06513c997",
+      "mother": "98e8349a-c7bb-4a7b-b01c-9af6b3924922"
+    }
+  },
+  {
+    "id": "2fb04ab8-c176-47b0-a203-16eb2b29cfed",
+    "data": {
+      "gender": "M",
+      "first name": "Patrick",
+      "last name": "Ho",
+      "birthday": "",
+      "avatar": "",
+      "deathday": ""
+    },
+    "rels": {
+      "spouses": [
+        "d35b5909-cfee-4381-ad77-bf4b6ba98d60"
+      ],
+      "children": [
+        "526e3656-e14f-495a-abc2-b71a817889a3"
+      ]
+    }
+  },
+  {
+    "id": "bf06b548-b71f-442e-ba9e-a22a4ea73cdd",
+    "data": {
+      "gender": "M",
+      "first name": "Nathan",
+      "last name": "Deisman",
+      "birthday": "1976",
+      "avatar": "",
+      "deathday": ""
+    },
+    "rels": {
+      "spouses": [
+        "e9eeaeec-44ed-4438-b71f-adab3cf03942"
+      ],
+      "children": [
+        "91f54309-554a-44d0-8b5b-fb95497f5b96"
+      ]
+    }
+  },
+  {
+    "id": "91f54309-554a-44d0-8b5b-fb95497f5b96",
+    "data": {
+      "gender": "F",
+      "first name": "Maxine",
+      "last name": "Vo-Deisman",
+      "birthday": "2019",
+      "avatar": "",
+      "deathday": ""
+    },
+    "rels": {
+      "father": "bf06b548-b71f-442e-ba9e-a22a4ea73cdd",
+      "mother": "e9eeaeec-44ed-4438-b71f-adab3cf03942"
+    }
+  },
+  {
+    "id": "ca842066-5a3a-432e-a7ac-657637959903",
+    "data": {
+      "gender": "M",
+      "first name": "Anh",
+      "last name": "Nguyễn",
+      "birthday": "",
+      "avatar": "",
+      "deathday": ""
+    },
+    "rels": {
+      "spouses": [
+        "aa27b912-1bd3-4dcc-a37b-630d66b4deda"
+      ],
+      "father": "70853a43-3374-417b-ab5b-3362da20763b",
+      "mother": "027c58db-2c8e-4ca1-874d-703f9572c79b",
+      "children": [
+        "d99f7509-58c1-49e8-9658-f9c7ebe566dc"
+      ]
+    }
+  },
+  {
+    "id": "aa27b912-1bd3-4dcc-a37b-630d66b4deda",
+    "data": {
+      "gender": "F",
+      "first name": "Đức",
+      "last name": "Lê",
+      "birthday": "",
+      "avatar": "",
+      "deathday": ""
+    },
+    "rels": {
+      "spouses": [
+        "ca842066-5a3a-432e-a7ac-657637959903"
+      ],
+      "children": [
+        "d99f7509-58c1-49e8-9658-f9c7ebe566dc"
+      ]
+    }
+  },
+  {
+    "id": "d99f7509-58c1-49e8-9658-f9c7ebe566dc",
+    "data": {
+      "gender": "F",
+      "first name": "Thạch",
+      "last name": "Nguyễn",
+      "birthday": "",
+      "avatar": "",
+      "deathday": ""
+    },
+    "rels": {
+      "father": "ca842066-5a3a-432e-a7ac-657637959903",
+      "mother": "aa27b912-1bd3-4dcc-a37b-630d66b4deda"
+    }
+  },
+  {
+    "id": "526e3656-e14f-495a-abc2-b71a817889a3",
+    "data": {
+      "gender": "M",
+      "first name": "Evan",
+      "last name": "Ho",
+      "birthday": "2022",
+      "avatar": "",
+      "deathday": ""
+    },
+    "rels": {
+      "father": "2fb04ab8-c176-47b0-a203-16eb2b29cfed",
+      "mother": "d35b5909-cfee-4381-ad77-bf4b6ba98d60"
     }
   }
 ]

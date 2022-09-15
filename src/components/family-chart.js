@@ -45,7 +45,7 @@ export default class FamilyTree extends React.Component {
             }
 
             if (birthday) {
-              return `${birthYear} ${getZodiacAnimalHex(birthYear)} (${getAge(birthday)})`
+              return `${getZodiacAnimalHex(birthYear)} (${getAge(birthday)})`
             }
 
             return "";
